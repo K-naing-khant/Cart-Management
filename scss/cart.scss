@@ -5,3 +5,9 @@ $enable-rounded: false;
 
 @import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.card-thumbnail img{
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+}
